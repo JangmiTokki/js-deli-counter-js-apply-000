@@ -39,8 +39,8 @@ function currentLine(katzDeliLine)
   {
     for(var i = 0; i < katzDeliLine.length; i++)
     {
-      currentCustomers +=`${(i+1)}. ${katzDeliLine[i]},`;
+      currentCustomer +=`${(i+1)}. ${katzDeliLine[i]},`;
     }
-    return customers.slice(-2);
+    return currentCustomer.slice(-2);
   }
 }
