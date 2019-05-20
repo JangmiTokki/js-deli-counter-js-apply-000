@@ -19,7 +19,7 @@ function nowServing(katzDeliLine)
   else
   {
     nowServingMessage = `Currently serving ${currentCustomer}.`;
-    katzDeliLine.slice(1);
+    katzDeliLine.shift();
     return nowServingMessage;
     
   }
