@@ -10,7 +10,8 @@ function nowServing(katzDeliLine)
   var nowServingMessage;
   
   var currentCustomer = (katzDeliLine[0]);
-  if(katzDeliLine === undefined || katzDeliLine === 0)
+  
+  if(katzDeliLine === undefined || katzDeliLine.length === 0)
   {
     nowServingMessage = "There is nobody waiting to be served!";
     return nowServingMessage;
