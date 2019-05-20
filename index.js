@@ -1,7 +1,12 @@
-function takeANumber(line, customer)
+var customerNum = 0;
+
+  
+  customerNum++;
+function takeANumber(line, customerNum)
 {
-  line.push(customer);
-  var welcomeMessage = `Welcome, you are number ${line.length} in line.`;
+  line.push(customerNum);
+  customerNum++;
+  var welcomeMessage = `Welcome, you are number ${customerNum} in line.`;
   return welcomeMessage;
 }
 
