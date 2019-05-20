@@ -25,7 +25,18 @@ function nowServing(katzDeliLine)
 
 function currentLine(katzDeliLine)
 {
-  var customers = `The line is currently';
+  var customers = `The line is currently`;
   
-  if()
+  if(katzDeliLine === undefined || katzDeliLine === 0)
+  {
+    customers+= "empty";
+  }
+  
+  else
+  {
+    for(var i = 0; i < katzDeliLine.length; i++)
+    {
+      customers += `
+    }
+  }
 }
