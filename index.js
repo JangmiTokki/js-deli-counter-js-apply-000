@@ -1,5 +1,6 @@
 function takeANumber(line, customer)
 {
+  line = [line..., customer];
   var welcomeMessage = `Welcome, ${customer}. You are number ${line.length} in line.`;
   return welcomeMessage;
 }
