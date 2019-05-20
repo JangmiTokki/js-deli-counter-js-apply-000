@@ -32,7 +32,7 @@ function currentLine(katzDeliLine)
   
   if(katzDeliLine === undefined || katzDeliLine.length === 0)
   {
-    customers += "empty";
+    return emptyLine;
   }
   
   else
