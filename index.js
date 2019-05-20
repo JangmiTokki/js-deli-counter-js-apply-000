@@ -18,7 +18,7 @@ function nowServing(katzDeliLine)
   }
   else
   {
-    nowServingMessage = `Currently Serving ${currentCustomer}.`;
+    nowServingMessage = `Currently serving ${currentCustomer}.`;
     katzDeliLine = katzDeliLine.slice[1];
     return nowServingMessage;
     
@@ -29,7 +29,7 @@ function currentLine(katzDeliLine)
 {
   var customers = `The line is currently`;
   
-  if(katzDeliLine === undefined || katzDeliLine === 0)
+  if(katzDeliLine === undefined || katzDeliLine.length === 0)
   {
     customers+= "empty";
   }
