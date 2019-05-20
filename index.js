@@ -31,14 +31,14 @@ function currentLine(katzDeliLine)
   
   if(katzDeliLine === undefined || katzDeliLine.length === 0)
   {
-    customers+= "empty";
+    customers += "empty";
   }
   
   else
   {
     for(var i = 0; i < katzDeliLine.length; i++)
     {
-      customers += `${(i+1)}. ${katzDeliLine[i]},`;
+      customers.push(`${(i+1)}. ${katzDeliLine[i]},`);
     }
     return customers.slice(-2);
   }
