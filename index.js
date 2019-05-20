@@ -1,7 +1,7 @@
 function takeANumber(line, customer)
 {
   line.push(customer);
-  var welcomeMessage = `Welcome, ${customer}. You are number ${line.length} in line.`;
+  var welcomeMessage = `Welcome, you are number ${line.length} in line.`;
   return welcomeMessage;
 }
 
