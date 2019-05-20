@@ -2,7 +2,7 @@ var customerNum = 0;
 
   
   //customerNum++;
-function takeANumber( customerNum)
+function takeANumber()
 {
   customerNum++;
   //line.push(customerNum);
