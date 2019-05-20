@@ -39,7 +39,7 @@ function currentLine(katzDeliLine)
   {
     for(var i = 0; i < katzDeliLine.length; i++)
     {
-      currentCustomer +=`${(i+1)}. ${katzDeliLine[i]},`;
+      currentCustomer +=` ${(i+1)}. ${katzDeliLine[i]},`;
     }
     return currentCustomer.slice(0,-1);
   }
