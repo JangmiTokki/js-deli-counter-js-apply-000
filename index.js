@@ -41,6 +41,6 @@ function currentLine(katzDeliLine)
     {
       currentCustomer +=`${(i+1)}. ${katzDeliLine[i]},`;
     }
-    return currentCustomer;
+    return currentCustomer.slice(-1);
   }
 }
